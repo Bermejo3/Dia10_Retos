@@ -1,15 +1,15 @@
-function calculadora(operacion, num1, num2, num3){
+function calculadora(oper, num1, num2, num3){
     var resultado
-    if (operacion === "sum"){
+    if (oper === "sum"){
         resultado = num1 + num2 + num3
     }
-    else if (operacion == "subs"){
+    else if (oper == "subs"){
         resultado = num1 - num2
     }
-    else if (operacion == "mult"){
+    else if (oper == "mult"){
         resultado = num1 * num2
     }
-    else if (operacion == "div"){
+    else if (oper == "div"){
         resultado = num1 / num2
     }
     return resultado
