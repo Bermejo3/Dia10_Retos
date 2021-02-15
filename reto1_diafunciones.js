@@ -1,6 +1,6 @@
 function calculadora(str, num1, num2){
     var resultado
-    if (str == "sum"){
+    if (str === "sum"){
         resultado = num1 + num2
     }
     else if (str == "subs"){
