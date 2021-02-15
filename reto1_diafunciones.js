@@ -1,7 +1,7 @@
-function calculadora(operacion, num1, num2){
+function calculadora(operacion, num1, num2, num3){
     var resultado
     if (operacion === "sum"){
-        resultado = num1 + num2
+        resultado = num1 + num2 + num3
     }
     else if (operacion == "subs"){
         resultado = num1 - num2
